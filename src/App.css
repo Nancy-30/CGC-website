@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    margin: 0;
+    /* line-height: normal; */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  :root {
+    /* fonts */
+    --font-futura: Futura;
+    --font-inherit: inherit;
+    --font-ubuntu: Ubuntu;
+  
+    /* font sizes */
+    --font-size-21xl: 40px;
+    --font-size-3xl: 22px;
+    --font-size-xl: 20px;
+    --font-size-4xl: 23px;
+    --font-size-16xl: 35px;
+    --font-size-mid: 17px;
+    --font-size-lg: 18px;
+    --font-size-26xl: 45px;
+    --font-size-6xl: 25px;
+    --font-size-46xl: 65px;
+    --font-size-3xs: 10px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslateblue: #013365;
+    --color-black: #000;
+    --color-gray-100: #051f42;
+    --color-gray-200: #0d0d0d;
+    --color-lightskyblue: #50a5cc;
+    --color-royalblue: #2563eb;
+    --color-skyblue: #50a5ca;
+    --color-whitesmoke: #ebedea;
+    --color-gainsboro: #d9d9d9;
+  
+    /* Paddings */
+    /* --padding-5xl: 24px; */
+  
+    /* border radiuses */
+    --br-10xs: 3px;
+    --br-6xs: 7px;
+    --br-mini: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
