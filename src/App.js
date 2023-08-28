@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Logo from './components/Logo';
 // import OverviewGoals from './components/Overview_Goals';
 // import ChairmenMsg from './components/Chairmen_msg';
@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div className='flex flex-col'>
-      <Navbar />
       <Logo />
       <main className={mainDiv}>
         {/* <OverviewGoals />
