@@ -56,7 +56,7 @@ export default function TeamMembers() {
   ];
   return (
     <div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl text-neavyBlue font-bold mb-10">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl text-neavyBlue font-bold mb-10">
         Website Team
       </h1>
 
@@ -69,7 +69,7 @@ export default function TeamMembers() {
               className="h-[200px] lg:h-[340px] rounded-md"
             />
 
-            <div className="md:text-xl font-medium text-neavyBlue text-center">
+            <div className="md:text-lg font-medium text-neavyBlue text-center mt-2">
               {data.name}
             </div>
 
